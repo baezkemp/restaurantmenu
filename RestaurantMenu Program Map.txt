@@ -1,0 +1,31 @@
+Restaurant Studio
+
+* Menu has-a's
+----
+ArrayList<MenuItem> listOfDishes
+Date lastUpdated
+
+* Menu Methods
+----
+void add (MenuItem m)
+void remove (MenuItem m)
+Date getLastUpdated()
+String toString()
+
+Menu()
+
+*MenuItem has-a's
+----
+String name
+double price
+String description
+String category
+boolean isNew
+
+*MenuItem Methods
+----
+boolean isNew()
+String toString()
+boolean equals()
+
+MenuItem (name, price, description, category, isNew)
